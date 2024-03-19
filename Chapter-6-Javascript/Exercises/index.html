@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petrol Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Petrol Calculator</h1>
+        <!-- Form for petrol calculator -->
+        <form id="calculator-form">
+            <div class="input-group">
+                <label for="cost-per-liter">Cost per liter:</label>
+                <!-- Field for cost per liter -->
+                <input type="number" id="cost-per-liter" name="costPerLiter" step="0.01" value="1.72" required>
+            </div>
+            <div class="input-group">
+                <label for="liters-purchased">Liters purchased:</label>
+                <!-- Field for liters purchased -->
+                <input type="number" id="liters-purchased" name="litersPurchased" step="0.01" value="0" required>
+            </div>
+            <!-- Button to calculate total cost -->
+            <button type="button" id="calculate-btn">Calculate</button>
+        </form>
+        <!-- Paragraph to display total cost -->
+        <p id="total-cost"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+/* Resetting default browser styles */
+body {
+    font-family: Arial, sans-serif; /* Setting default font family */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #f1f1f1; /* Set background color */
+}
+
+/* Container for the calculator */
+.container {
+    max-width: 400px; /* Set maximum width of the container */
+    margin: 50px auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding to the container */
+    background-color: #fff; /* Set background color */
+    border-radius: 8px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    text-align: center; /* Center text inside the container */
+}
+
+/* Styling for the heading */
+h1 {
+    color: #333; /* Set heading color */
+}
+
+/* Styling for input groups */
+.input-group {
+    margin-bottom: 20px; /* Add space between input groups */
+}
+
+/* Styling for labels */
+label {
+    display: block; /* Display labels as block elements */
+    margin-bottom: 5px; /* Add space below labels */
+    color: #666; /* Set label color */
+}
+
+/* Styling for number input fields */
+input[type="number"] {
+    width: 100%; /* Set input width to 100% */
+    padding: 10px; /* Add padding */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add rounded corners */
+    outline: none; /* Remove outline */
+}
+
+/* Styling for buttons */
+button {
+    padding: 10px 20px; /* Add padding */
+    background-color: #007bff; /* Set background color */
+    color: #fff; /* Set text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #0056b3; /* Darken background color on hover */
+}
+
+/* Styling for total cost paragraph */
+p#total-cost {
+    font-size: 1.2rem; /* Set font size */
+    font-weight: bold; /* Set font weight to bold */
+    color: #333; /* Set text color */
+    margin-top: 20px; /* Add space above paragraph */
+}
